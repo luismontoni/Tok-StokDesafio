@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokStok.Api", "TokStok.Api\TokStok.Api.csproj", "{EDD9D365-9230-4C59-9C50-B577BA59F5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokStok.Domain", "TokStok.Domain\TokStok.Domain.csproj", "{65B43063-212A-42D3-A093-1E5DFBA891AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokStok.Infra", "TokStok.Infra\TokStok.Infra.csproj", "{CABCE502-2B5D-4D73-99D2-BCC79119317B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokStok.Shared", "TokStok.Shared\TokStok.Shared.csproj", "{24045E42-DC1B-44B9-A0AF-F662964066C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD9D365-9230-4C59-9C50-B577BA59F5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD9D365-9230-4C59-9C50-B577BA59F5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD9D365-9230-4C59-9C50-B577BA59F5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD9D365-9230-4C59-9C50-B577BA59F5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B43063-212A-42D3-A093-1E5DFBA891AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B43063-212A-42D3-A093-1E5DFBA891AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B43063-212A-42D3-A093-1E5DFBA891AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B43063-212A-42D3-A093-1E5DFBA891AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABCE502-2B5D-4D73-99D2-BCC79119317B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABCE502-2B5D-4D73-99D2-BCC79119317B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABCE502-2B5D-4D73-99D2-BCC79119317B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABCE502-2B5D-4D73-99D2-BCC79119317B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24045E42-DC1B-44B9-A0AF-F662964066C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24045E42-DC1B-44B9-A0AF-F662964066C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24045E42-DC1B-44B9-A0AF-F662964066C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24045E42-DC1B-44B9-A0AF-F662964066C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8EC0265-A5E6-47CB-B592-084BA0873AF9}
+	EndGlobalSection
+EndGlobal
